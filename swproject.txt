@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./top_style.css">
+    <link rel="stylesheet" href="./main_style.css">
+    <title>Document</title>
+
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,500,700%7CRoboto+Condensed:400,700%7COswald:400,700" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Nanum+Gothic" rel="stylesheet">
+
+    <script>
+        function share() {
+            var url = encodeURI(encodeURIComponent(myform.url.value));
+            var title = encodeURI(myform.title.value);
+            var shareURL = "https://share.naver.com/web/shareView?url=" + url + "&title=" + title;
+            document.location = shareURL;
+        }
+    </script>
+</head>
+<body>
+    <div id="warp">
+        <div class="containerArea">
+            <div class="container_top">
+                <div class="top_menuArea">
+                    <div class="top_menu">
+                    
+                        <div class="top_sta">
+                            <a class="first">로그인</a><div class="dash"></div>
+                            <a>회원가입</a><div class="dash"></div>
+                            <a>장바구니</a><div class="dash"></div>
+                            <a>주문조회</a><div class="dash"></div>
+                            <a class="last">마이페이지</a>
+                        </div>
+
+                        <div class="top_border">
+                            <a class="first">커뮤니티</a><div class="dash"></div>
+                            <a>고객센터</a><div class="dash"></div>
+                            
+                            <div class="snsArea">
+                                <div class="sns_on i_facebook">
+                                    <a href="https://www.facebook.com/DongseoUniversity" target="_blank" alt="페이스북">
+                                        <span></span>
+                                    </a>
+                                </div>
+                                <div class="sns_on i_insta">
+                                    <a href="https://www.instagram.com/dongseo_university/" target="_blank" alt="페이스북">
+                                        <span></span>
+                                    </a>
+                                </div>
+                                <div class="sns_on i_youtube">
+                                    <a href="https://www.youtube.com/user/dongseouniversity" target="_blank" alt="페이스북">
+                                        <span></span>
+                                    </a>
+                                </div>
+                                <div class="sns_on i_dongseo">
+                                    <a href="https://www.dongseo.ac.kr/kr/" target="_blank" alt="페이스북">
+                                        <span></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="top_logoArea">
+                    <div class="top_logo">
+                        <a href="/main.html">
+                            <img src="/img_logo/DSU_simbol.png" alt="메인페이지">
+                        </a>
+                    </div>
+                </div>
+                <div class="top_category">                
+                    <div class="categoryArea">
+                        <div class="mall_center">
+                            <div class="category category_table">
+                                <div class="category_all menu_cell ">
+
+                                    <div class="cate_all_ico"></div>
+                                    <div class="all_menu_wrap">
+                                        <ul class="all_category">
+                                            <li class="allmenu_01">
+                                                <a href="">OUTER</a>
+                                                <ul>
+                                                    <li class="allmenu_02"><a href="">자켓/점퍼</a></li>
+                                                    <li class="allmenu_02"><a href="">가디건</a></li>
+                                                    <li class="allmenu_02"><a href="">코트</a></li>
+                                                    <li class="allmenu_02"><a href="">조끼</a></li>
+                                                    <li class="allmenu_02"><a href="">수트</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="allmenu_01">
+                                                <a href="">TOP</a>
+                                                <ul>
+                                                    <li class="allmenu_02"><a href="">긴팔</a></li>
+                                                    <li class="allmenu_02"><a href="">반팔</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="allmenu_01">
+                                                <a href="">SHIRTS</a>
+
+                                            </li>
+                                            <li class="allmenu_01">
+                                                <a href="">BOTTOM</a>
+                                                <ul>
+                                                    <li class="allmenu_02"><a href="">면바지</a></li>
+                                                    <li class="allmenu_02"><a href="">데님</a></li>
+                                                    <li class="allmenu_02"><a href="">슬렉스</a></li>
+                                                    <li class="allmenu_02"><a href="">반바지</a></li>
+                                                </ul>
+                                            </li>
+                                            <li class="allmenu_01">
+                                                <a href="">ACC</a>
+                                            </li>
+                                            <li class="allmenu_01">
+                                                <a href="">SHOES</a>
+                                            </li>
+                                            
+                                        </ul>
+                                    </div>
+
+                                </div>
+                                <div class="menu_cell">
+                                    <div class="list_inner">
+                                        <div class="list_menu"><a href="category_1.html">OUTHER</a></div>
+                                        <div class="list_menu"><a href="">TOP</a></div>
+                                        <div class="list_menu"><a href="">SHIRTS</a></div>
+                                        <div class="list_menu"><a href="">BOTTOM</a></div>
+                                        <div class="list_menu"><a href="">ACC</a></div>
+                                        <div class="list_menu"><a href="">SHOES</a></div>
+
+                                </div>
+                                    </div>
+
+                            </div> 
+
+                        </div>
+                    </div>
+                </div>
+                <div class="img_box">
+                    <ul class="bx-pager-item">
+                        <li>
+                            <a href="#">
+                                <img class="img_inside" src="https://file.cafe24cos.com/banner-admin-live/upload/page2015/fb7e80cd-1841-4902-ebee-6741a3a31dfd.jpeg">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="img_inside" src="https://file.cafe24cos.com/banner-admin-live/upload/page2015/99907c49-83b7-4530-eae5-253a2cae5e86.jpeg">                        
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <img class="img_inside" src="https://file.cafe24cos.com/banner-admin-live/upload/page2015/fe89ca0b-b43a-424e-a0cb-4aab752e5266.jpeg">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="pager_box">
+                    <ul class="pager"></ul>
+                </div>
+                <div class="scroll_list_warp">
+                    <div class="scroll_list">
+                        <div class="list_title">
+                            [ NEW ARRVALS ]
+                            <span>더 좋은 제품으로 찾아온 신상품, 만나보세요</span>
+                        </div>
+
+                        <ul class="prdList prdList_width">
+                            <li class="item" onclick="redirectToNewPage(this.querySelector('img').src, this.querySelector('img').alt)">
+                                <div class="box">
+                                    <div class="prdselect">
+                                        <div class="prdImg_img">
+                                            <img src="//maninstore.co.kr/web/product/small/202406/611ade52e3bff59186d2e3593dd0115c.jpg" id="eListPrdImage3342_3" alt="빈티지 링클 체크셔츠">
+                                            <div class="overlay">
+                                                <p>구매하기</p>
+                                            </div>
+                                        </div>
+                                        <div class="item_name">
+                                            <div>빈티지 링클 체크셔츠</div>
+                                            <div class="price">₩32,000</div>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item" onclick="redirectToNewPage(this.querySelector('img').src, this.querySelector('img').alt)">
+                                <div class="box">
+                                    <div class="prdselect">
+                                        <div class="prdImg_img">
+                                            <img src="//www.bymono.com/web/product/big/202406/e69b95c209984dbab2a5147744955aa1.jpg" id="eListPrdImage3342_3" alt="꼭꼭팬츠 구김zero 와이드핏 긴바지">
+                                            <div class="overlay">
+                                                <p>구매하기</p>
+                                            </div>
+                                        </div>
+                                        <div class="item_name">
+                                            <div>꼭꼭팬츠 구김zero 와이드핏 긴바지</div>
+                                            <div class="price">₩29,900</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item" onclick="redirectToNewPage(this.querySelector('img').src, this.querySelector('img').alt)">
+                                <div class="box">
+                                    <div class="prdselect">
+                                        <div class="prdImg_img">
+                                            <img src="https://cafe24.poxo.com/ec01/h9595/Eq2JUnbp+f2xrJOy4N2kk7/oNqIsWo6Xm8C6Eq7xdNGmNCnxEbR3vFejoYb8FBncug8bkb1nJNIH0Xl18WRdIg==/_/web/product/medium/202406/c08c2e4e5f1cb529efb28481684f53f5.jpg" id="eListPrdImage3342_3" alt="나탈리 빈티지 체크 캡 (2color)">
+                                            <div class="overlay">
+                                                <p>구매하기</p>
+                                            </div>
+                                        </div>
+                                        <div class="item_name">
+                                            <div>나탈리 빈티지 체크 캡 (2color)</div>
+                                            <div class="price">₩21,000</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item" onclick="redirectToNewPage(this.querySelector('img').src, this.querySelector('img').alt)">
+                                <div class="box">
+                                    <div class="prdselect">
+                                        <div class="prdImg_img">
+                                            <img src="https://cafe24.poxo.com/ec01/h9595/Eq2JUnbp+f2xrJOy4N2kk7/oNqIsWo6Xm8C6Eq7xdNGmNCnxEbR3vFejoYb8FBncug8bkb1nJNIH0Xl18WRdIg==/_/web/product/medium/202406/e400113172dfa6595ca43ccf86d18202.gif" id="eListPrdImage3342_3" alt="스냅 카고 버뮤다 데님 (2color)">
+                                            <div class="overlay">
+                                                <p>구매하기</p>
+                                            </div>
+                                        </div>
+                                        <div class="item_name">
+                                            <div>스냅 카고 버뮤다 데님 (2color)</div>
+                                            <div class="price">₩51,000</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="item" onclick="redirectToNewPage(this.querySelector('img').src, this.querySelector('img').alt)">
+                                <div class="box">
+                                    <div class="prdselect">
+                                        <div class="prdImg_img">
+                                            <img src="https://cafe24.poxo.com/ec01/h9595/Eq2JUnbp+f2xrJOy4N2kk7/oNqIsWo6Xm8C6Eq7xdNGmNCnxEbR3vFejoYb8FBncug8bkb1nJNIH0Xl18WRdIg==/_/web/product/big/202406/3758ee97bbce7d32a8ca6e2e1a849ef9.webp" id="eListPrdImage3342_3" alt="스테이 원 포켓 하프 셔츠 (4color)">
+                                            <div class="overlay">
+                                                <p>구매하기</p>
+                                            </div>
+                                        </div>
+                                        <div class="item_name">
+                                            <div>스테이 원 포켓 하프 셔츠 (4color)</div>
+                                            <div class="price">₩38,000</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            
+                        </ul>
+                    </div>
+                </div>
+                <div style="height: 2000px;"></div>
+
+            </div>
+        </div>
+    </div>
+    
+    <script>
+    // 마우스가 올라갈 요소를 선택
+        const elements = document.querySelectorAll('.all_menu_wrap, .cate_all_ico');
+        const listItems = document.querySelectorAll('li.allmenu_02');
+
+        // 각 요소에 대해 'mouseover'와 'mouseout' 이벤트 리스너를 추가
+        elements.forEach(function(element) {
+            element.addEventListener('mouseover', function() {
+                document.querySelector('.all_menu_wrap').classList.add('on');
+            });
+            element.addEventListener('mouseout', function() {
+                document.querySelector('.all_menu_wrap').classList.remove('on');
+            });
+        });
+
+        // 각 리스트 요소에 대해 'mouseover'와 'mouseout' 이벤트 리스너를 추가
+        listItems.forEach(function(item) {
+            item.addEventListener('mouseover', function() {
+            this.classList.add('on');
+            });
+            item.addEventListener('mouseout', function() {
+            this.classList.remove('on');
+            });
+        });
+
+    // 이미지 슬라이드
+        var slider = document.querySelector('.bx-pager-item');
+        var slides = slider.querySelectorAll('li');
+        var pager = document.querySelector('.pager');
+        var currentIndex = 0;
+        var slideInterval = setInterval(nextSlide,3000); // 3초 간격으로 슬라이드 전환
+
+        function nextSlide() {
+        // 현재 슬라이드 숨기기
+            slides[currentIndex].style.display = 'none';
+            pager.children[currentIndex].classList.remove('active');
+
+        // 다음 슬라이드의 인덱스를 계산
+            currentIndex = (currentIndex+1) % slides.length;
+
+        // 다음 슬라이드를 표시
+            slides[currentIndex].style.display = 'block';
+            pager.children[currentIndex].classList.add('active');
+        }
+
+        // 첫 번째 슬라이드를 제외하고 모든 슬라이드를 초기에 숨기기
+        for (var i = 1; i < slides.length; i++) {
+        slides[i].style.display = 'none';
+        } 
+
+    // 페이저를 생성
+        for (var i = 0; i < slides.length; i++) {
+        var li = document.createElement('li');
+
+        li.addEventListener('click', function(index) {
+            return function() {        
+            clearInterval(slideInterval);
+
+            slides[currentIndex].style.display = 'none';
+            pager.children[currentIndex].classList.remove('active');
+            currentIndex = index;
+
+            slides[currentIndex].style.display = 'block';
+            pager.children[currentIndex].classList.add('active');
+
+            slideInterval = setInterval(nextSlide,3000);
+            }
+        }(i));
+        pager.appendChild(li);
+        }
+
+        pager.children[0].classList.add('active');
+
+        //이미지 정보 보내기
+        function redirectToNewPage(src, alt) {
+        // 이미지 소스와 alt 값을 세션 스토리지에 저장
+        sessionStorage.setItem('imgSrc', src);
+        sessionStorage.setItem('imgAlt', alt);
+        // 새 페이지로 리다이렉트
+        window.location.href = 'detail.html';
+        }
+        
+    </script>
+
+</body>
+</html>
+
